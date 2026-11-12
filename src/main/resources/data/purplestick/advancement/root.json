@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "has_any_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#purplestick:construction_sticks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:block/purple_wool",
+    "description": {
+      "translate": "advancement.purplestick.root.desc"
+    },
+    "icon": {
+      "id": "purplestick:wooden_stick"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancement.purplestick.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_any_stick"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

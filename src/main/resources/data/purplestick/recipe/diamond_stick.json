@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "I": "purplestick:iron_stick",
+    "D": "minecraft:diamond_block"
+  },
+  "pattern": [
+    "  A",
+    " I ",
+    "D  "
+  ],
+  "result": {
+    "id": "purplestick:diamond_stick"
+  }
+}

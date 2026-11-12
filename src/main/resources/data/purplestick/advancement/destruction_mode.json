@@ -1,0 +1,28 @@
+{
+  "parent": "purplestick:root",
+  "criteria": {
+    "enter_destruction_mode": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.purplestick.destruction_mode.desc"
+    },
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.purplestick.destruction_mode.title"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "enter_destruction_mode"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

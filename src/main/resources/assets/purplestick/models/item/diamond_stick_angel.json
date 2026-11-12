@@ -1,0 +1,7 @@
+{
+  "parent": "purplestick:item/base_stick",
+  "textures": {
+    "layer0": "purplestick:item/diamond_stick",
+    "layer1": "purplestick:item/overlay_angel"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "purplestick",
+  "version": "${version}",
+  "name": "Purple Stick",
+  "description": "The ultimate builder's wand for placing and destroying blocks effortlessly.",
+  "authors": [
+    "Tarek Sharabaty",
+    "Oidioom"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/purplestick/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.oidioomstudio.purplestick.PurpleStickMod"
+    ],
+    "client": [
+      "com.oidioomstudio.purplestick.client.PurpleStickClientMod"
+    ],
+    "modmenu": [
+      "com.oidioomstudio.purplestick.client.ModMenuIntegration"
+    ]
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.instagram.lordotarik": "https://www.instagram.com/tariksby",
+        "modmenu.instagram.oidioom": "https://www.instagram.com/oidioom"
+      }
+    }
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*",
+    "olib": ">=0.0.1"
+  }
+}

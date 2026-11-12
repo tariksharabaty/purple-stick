@@ -1,0 +1,35 @@
+{
+  "parent": "purplestick:iron_stick",
+  "criteria": {
+    "has_diamond_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "purplestick:diamond_stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.purplestick.diamond_stick.desc"
+    },
+    "icon": {
+      "id": "purplestick:diamond_stick"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.purplestick.diamond_stick.title"
+    },
+    "frame": "task"
+  },
+  "requirements": [
+    [
+      "has_diamond_stick"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

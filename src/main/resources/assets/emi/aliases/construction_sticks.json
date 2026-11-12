@@ -1,0 +1,18 @@
+﻿{
+  "aliases": [
+    {
+      "stacks": [
+        "item:purplestick:wooden_stick",
+        "item:purplestick:copper_stick",
+        "item:purplestick:iron_stick",
+        "item:purplestick:diamond_stick",
+        "item:purplestick:netherite_stick"
+      ],
+      "text": [
+        "purplestick.alias.emi.construction",
+        "purplestick.alias.emi.wand",
+        "purplestick.alias.emi.construction_wand"
+      ]
+    }
+  ]
+}

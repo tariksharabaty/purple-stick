@@ -1,0 +1,35 @@
+{
+  "parent": "purplestick:diamond_stick",
+  "criteria": {
+    "has_netherite_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "purplestick:netherite_stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.purplestick.netherite_stick.desc"
+    },
+    "icon": {
+      "id": "purplestick:netherite_stick"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.purplestick.netherite_stick.title"
+    },
+    "frame": "challenge"
+  },
+  "requirements": [
+    [
+      "has_netherite_stick"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

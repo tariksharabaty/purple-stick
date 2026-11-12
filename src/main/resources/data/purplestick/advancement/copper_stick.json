@@ -1,0 +1,35 @@
+{
+  "parent": "purplestick:root",
+  "criteria": {
+    "has_copper_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "purplestick:copper_stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.purplestick.copper_stick.desc"
+    },
+    "icon": {
+      "id": "purplestick:copper_stick"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.purplestick.copper_stick.title"
+    },
+    "frame": "task"
+  },
+  "requirements": [
+    [
+      "has_copper_stick"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
